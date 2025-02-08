@@ -13,4 +13,4 @@ A Spring Boot application that tracks and analyzes GitHub user activity.
 - **Maven**
 - **GitHub API**
 - **Spring Web**
-https://roadmap.sh/projects/github-user-activity
+
