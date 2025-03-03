@@ -1,16 +1,8 @@
 package com.JavaJunkie.JavaJunkie.Service;
-
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.springframework.stereotype.Service;
-
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
 @Service
 public class CodechefService {
 
@@ -41,7 +33,6 @@ public class CodechefService {
         } catch (Exception e) {
             return "Error: Unable to fetch CodeChef data for handle: " + handle;
         }
-
         return result.toString();
     }
 }
